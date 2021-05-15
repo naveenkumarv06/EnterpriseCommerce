@@ -1,0 +1,21 @@
+[ {
+  "uid" : "6ecbf62964b5e155",
+  "name" : "test_verify_login_page_title",
+  "time" : {
+    "start" : 1620644837880,
+    "stop" : 1620644841196,
+    "duration" : 3316
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "5c0526bc656c190e",
+  "name" : "test_login",
+  "time" : {
+    "start" : 1620644841848,
+    "stop" : 1620644842996,
+    "duration" : 1148
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

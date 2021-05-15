@@ -1,0 +1,5 @@
+INFO     test_login:test_login.py:32 Logging to Hendrix Application
+INFO     login_to_hendrix:loginpage.py:20 Entering username: Hsat1_na
+INFO     login_to_hendrix:loginpage.py:22 Entering password: Adobe_01
+INFO     login_to_hendrix:loginpage.py:24 Clicking on Login Button
+INFO     test_login:test_login.py:34 Login Successful

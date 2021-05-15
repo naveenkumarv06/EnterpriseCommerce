@@ -1,0 +1,185 @@
+{
+  "uid" : "6ecbf62964b5e155",
+  "name" : "test_verify_login_page_title",
+  "fullName" : "test_login.Test_Login#test_verify_login_page_title",
+  "historyId" : "3b817526f4c59fae2736351084c2d657",
+  "time" : {
+    "start" : 1620644837880,
+    "stop" : 1620644841196,
+    "duration" : 3316
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+  "statusTrace" : "self = <Tests.test_login.Test_Login object at 0x000000467E68CD30>\n\n    def test_verify_login_page_title(self):\n    \n        log = self.get_ogger()\n        login = LoginPage(self.driver)\n        # log.info(\"Getting the Login Page Title\")\n        title = login.get_page_title(TestData.login_page_title)\n        log.info(\"Login Page Title is : {}\".format(title))\n        try:\n>           assert not (title == TestData.login_page_title), \"Expected Title is : {} , Actual Title is: {}\".format(\n                TestData.login_page_title, title)\nE               AssertionError: Expected Title is : User Login , Actual Title is: User Login\nE               assert not 'User Login' == 'User Login'\nE                   User Login\n\nTests\\test_login.py:23: AssertionError",
+  "flaky" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1620644785977,
+      "stop" : 1620644837761,
+      "duration" : 51784
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+    "statusTrace" : "self = <Tests.test_login.Test_Login object at 0x000000467E68CD30>\n\n    def test_verify_login_page_title(self):\n    \n        log = self.get_ogger()\n        login = LoginPage(self.driver)\n        # log.info(\"Getting the Login Page Title\")\n        title = login.get_page_title(TestData.login_page_title)\n        log.info(\"Login Page Title is : {}\".format(title))\n        try:\n>           assert not (title == TestData.login_page_title), \"Expected Title is : {} , Actual Title is: {}\".format(\n                TestData.login_page_title, title)\nE               AssertionError: Expected Title is : User Login , Actual Title is: User Login\nE               assert not 'User Login' == 'User Login'\nE                   User Login\n\nTests\\test_login.py:23: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "18f031574c765a3f",
+      "name" : "test_verify_login_page_title",
+      "source" : "18f031574c765a3f.png",
+      "type" : "image/png",
+      "size" : 30364
+    }, {
+      "uid" : "d2a35dba3b6476b2",
+      "name" : "log",
+      "source" : "d2a35dba3b6476b2.txt",
+      "type" : "text/plain",
+      "size" : 472
+    }, {
+      "uid" : "c9b3f49209722e5b",
+      "name" : "stdout",
+      "source" : "c9b3f49209722e5b.txt",
+      "type" : "text/plain",
+      "size" : 2
+    }, {
+      "uid" : "bb954cd5c0280537",
+      "name" : "stderr",
+      "source" : "bb954cd5c0280537.txt",
+      "type" : "text/plain",
+      "size" : 250
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
+  "afterStages" : [ {
+    "name" : "setup::0",
+    "time" : {
+      "start" : 1620644842999,
+      "stop" : 1620644847864,
+      "duration" : 4865
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('setup')"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_Login"
+  }, {
+    "name" : "host",
+    "value" : "ASI-PF0LD1W2"
+  }, {
+    "name" : "thread",
+    "value" : "68172-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d4b5dc34bcdadc61",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+      "time" : {
+        "start" : 1620293235658,
+        "stop" : 1620293242248,
+        "duration" : 6590
+      }
+    }, {
+      "uid" : "654f06d6d1e9b5d6",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+      "time" : {
+        "start" : 1620287533733,
+        "stop" : 1620287534281,
+        "duration" : 548
+      }
+    }, {
+      "uid" : "5fdda0045c5bc41f",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+      "time" : {
+        "start" : 1620287198064,
+        "stop" : 1620287198967,
+        "duration" : 903
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 3,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 0,
+        "unknown" : 0,
+        "total" : 3
+      },
+      "items" : [ {
+        "uid" : "270227865916c123",
+        "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/55/allure/#testresult/270227865916c123",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+        "time" : {
+          "start" : 1620293235658,
+          "stop" : 1620293242248,
+          "duration" : 6590
+        }
+      }, {
+        "uid" : "fd580496c62f622e",
+        "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/54/allure/#testresult/fd580496c62f622e",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+        "time" : {
+          "start" : 1620287533733,
+          "stop" : 1620287534281,
+          "duration" : 548
+        }
+      } ]
+    },
+    "tags" : [ "@pytest.mark.usefixtures('setup')" ]
+  },
+  "source" : "6ecbf62964b5e155.json",
+  "parameterValues" : [ ]
+}

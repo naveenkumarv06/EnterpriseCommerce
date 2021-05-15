@@ -1,0 +1,62 @@
+{
+  "bd4d194b4bf5288aebfab9c5a1258aa6" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 2,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "f06d41ab08afe7f9",
+      "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/55/allure/#testresult/f06d41ab08afe7f9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620293243096,
+        "stop" : 1620293245430,
+        "duration" : 2334
+      }
+    }, {
+      "uid" : "ef41819ec9f8cf09",
+      "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/54/allure/#testresult/ef41819ec9f8cf09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1620287534568,
+        "stop" : 1620287535560,
+        "duration" : 992
+      }
+    } ]
+  },
+  "3b817526f4c59fae2736351084c2d657" : {
+    "statistic" : {
+      "failed" : 2,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 2
+    },
+    "items" : [ {
+      "uid" : "270227865916c123",
+      "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/55/allure/#testresult/270227865916c123",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+      "time" : {
+        "start" : 1620293235658,
+        "stop" : 1620293242248,
+        "duration" : 6590
+      }
+    }, {
+      "uid" : "fd580496c62f622e",
+      "reportUrl" : "http://localhost:8080/PythonAutomation/job/SeleniumPythonTesting/54/allure/#testresult/fd580496c62f622e",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: Expected Title is : User Login , Actual Title is: User Login\nassert not 'User Login' == 'User Login'\n    User Login",
+      "time" : {
+        "start" : 1620287533733,
+        "stop" : 1620287534281,
+        "duration" : 548
+      }
+    } ]
+  }
+}
